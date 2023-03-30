@@ -1,0 +1,13 @@
+<templateSet group="UserCustom">
+  <template name="tdd" value="@Test&#10;@DisplayName(&quot;$NAME$&quot;)        &#10;public void $NAME$() throws Exception{&#10;    //given&#10;    $END$&#10;    //when&#10;    &#10;    //then&#10;}" description="테스트 작성" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="xmlns:" value="xmlns:th=&quot;http://www.thymeleaf.org&quot;" description="(타입리프템플릿)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

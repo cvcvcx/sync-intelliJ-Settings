@@ -1,0 +1,9 @@
+<templateSet group="Java">
+  <template name="pv" value="public void $METHOD_NAMES$($PROPERTYS$){&#10;    $END$&#10;}" description="public void" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAMES" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPERTYS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,9 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://www.w3.org/2001/xml.xsd" location="$USER_HOME$/Library/Caches/JetBrains/IdeaIC2022.2/extResources/9b192256_xml.xsd" />
+    <resource url="http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" location="$USER_HOME$/Library/Caches/JetBrains/IdeaIC2022.2/extResources/27c071c8_web-app_3_1.xsd" />
+    <ignored-resource url="http://mybatis.org/dtd/mybatis-3-mapper.dtd" />
+    <ignored-resource url="http://mybatis.org/schema/mybatis-spring" />
+    <ignored-resource url="http://www.springframework.org/schema/jdbc" />
+  </component>
+</application>
